@@ -4,15 +4,11 @@ module.exports = {
   },
   registerHooks: function(context) {
     var crossPlatforms = [
-      'Windows 10/chrome@55',
-      'Windows 10/firefox@50'
     ];
 
     var otherPlatforms = [
       'OSX 10.11/iphone@10.0',
-      'OSX 10.11/ipad@10.0',
-      'Windows 10/microsoftedge@14',
-      'OS X 10.11/safari@10.0'
+      'OSX 10.11/ipad@10.0'
     ];
 
     // run SauceLabs tests for pushes, except cases when branch contains 'quick/'
